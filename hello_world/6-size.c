@@ -12,10 +12,10 @@ int main(void)
 	long long int LonglongType;
 	float FloatType;
 
-	printf("\n %lu octets pour variable de type char ", sizeof(char));
-	printf("\n %lu octets pour variable de type int ",sizeof(int));
-	printf("\n %lu octets pour variable de type long int ",sizeof(long int));
-	printf("\n %lu octets pour variable de type long long int ",sizeof(long long int));
-	printf("\n %lu octets pour variable de type float ",sizeof(float));
+	printf("Size of a char: %lu byte(s)\n", sizeof(char));
+	printf("Size of an int: %lu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
